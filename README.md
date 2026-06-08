@@ -4,7 +4,7 @@ Code for the paper The evolution of cooperation: multi-stage interactions, syner
 
 Each folder is used to reproduce the corresponding results in the main text
 
-All codes are written by MathWorks Matlab R2022b
+All codes are written in Matlab R2022b
 
 To run the code, make sure that all files are in the same folder
 
