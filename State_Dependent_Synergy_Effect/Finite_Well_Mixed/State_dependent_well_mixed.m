@@ -60,7 +60,7 @@ parfor times=1:6
                     if ~isequal(sta(i, :), sta1)
                         sta2 = sta(i, :);
                         numbersta1 = N - 1;
-                        Pay = DG_Dependent_WellMixed_New(N, sta, sta1, sta2, repeated_pay,stra_matrix); % Calculate payoffs
+                        Pay = DG_Dependent_WellMixed_New(N, sta, sta1, sta2, repeated_pay,stra_matrix, numbersta1); % Calculate payoffs
                         sta = DB_WellMixed(Pay, N, sta, w, sta1, sta2, numbersta1); % Update strategies
                     end
                 end
