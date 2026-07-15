@@ -1,4 +1,4 @@
-function DG_P = DG_Fixed_WellMixed_multiple(B, c, N, sta,stra_matrix,M,L)
+function DG_P = DG_Deterministic_WellMixed_multiple(B, c, N, sta,stra_matrix,M,L)
 DG_P = zeros(N, 1);
 cont=zeros((L+1)^M,1);
 P=zeros((L+1)^M,1);

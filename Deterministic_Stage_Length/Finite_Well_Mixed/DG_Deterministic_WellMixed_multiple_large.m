@@ -1,4 +1,4 @@
-function DG_P = DG_Fixed_WellMixed_multiple_large(B, c, N, sta)
+function DG_P = DG_Deterministic_WellMixed_multiple_large(B, c, N, sta)
 DG_P = zeros(N, 1);
 for i=1:N
     sta1=sta(i,:);
